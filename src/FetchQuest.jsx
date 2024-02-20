@@ -22,7 +22,7 @@ export default function FeatchQuestions({ amount }) {
 
 
 const handleClick = () => {
-      fetchData();
+    fetchData();
     setQuestFound(true);
   };
 
@@ -33,6 +33,10 @@ const handleClick = () => {
         data.map((item, index) => (
           <div key={index}>
             <h3 className="quest">{item.question.replace(/&quot;/g, '"')}</h3>
+            <button>{item.correct_answer}</button>
+            {item.incorrect_answers.map((item) => (
+            <button>{item}</button>
+            ))}
           </div>
         ))}
     </div>
