@@ -51,7 +51,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(156,33,177,0.89112746
 }
 
 .questions button {
-  padding: 20px;
+  padding: 5px;
 }
 
 .asnBut {
@@ -62,3 +62,16 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(156,33,177,0.89112746
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: white;
 }
+
+
+.button-joo:active  {
+  background-color: green;
+}
+.button-ei:active {
+  background-color: red;
+}
+
+.button-joo::after {
+  background-color: green;
+}
+
