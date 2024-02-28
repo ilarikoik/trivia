@@ -11,7 +11,7 @@ export default function Questions() {
     return(
         <>
         <div className="valinnat">
-            <label htmlFor="">Valitse kysymysten määrä:  </label>
+            <label htmlFor="">Valitse kysymysten määrä:</label>
             <select name="selectedAmount" defaultValue="5" value={amount} onChange={handleChange}>
                 <option value="">valitse määrä</option>
                 <option type="text" value="1">1</option>

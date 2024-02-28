@@ -1,6 +1,6 @@
 
 body {
-  background-color: #333;
+  background-color: #ffffff;
 }
 .header{
   background-color: rgb(0, 238, 159);
@@ -27,13 +27,15 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(156,33,177,0.89112746
 }
 
 .valinnat {
-  background-color:#F8B500;
+  background-color:#ffffff;
+  color:#00a2ffda;
   height: 90px;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  font-family:Verdana, Geneva, Tahoma, sans-serif
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
 }
 
 .valinnat select {
@@ -41,21 +43,54 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(156,33,177,0.89112746
 }
 
 .questions {
+  border-radius: 15px;
   padding: 20px;
-  background-color:#f88d00;
+  background-color:#00a2ffda;
   align-items: center;
   justify-content: center;
   text-align: center;
-
+  height: 110%;
 
 }
 
 .questions button {
   padding: 5px;
+  border: none;
+  margin: 5px;
+  height: 40px;
+  width: 50%;
+  border-radius: 8px;
+  background-color: white;
+  color:#333;
+  font-weight: bolder;
+  font-size: medium;
+  cursor: pointer;
 }
+
 
 .asnBut {
   margin: 10px;
+}
+
+.start-but {
+  padding: 5px;
+  border: none;
+  margin: 5px;
+  height: 40px;
+  width: 50%;
+  border-radius: 8px;
+  background-color: white;
+  color:#333;
+  font-weight: bolder;
+  font-size: medium;
+}
+
+.start-but:hover {
+  background-color: #0090e4;
+  color: white;
+  border: 1px solid white;
+  cursor: pointer;
+
 }
 
 .quest{
